@@ -63,4 +63,11 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+
+    // System UI Controller for Jetpack Compose - Accompanist
+    implementation(libs.accompanist.systemuicontroller)
+    // Pager
+    implementation(libs.accompanist.pager)
+    implementation(libs.accompanist.pager.indicators)
+
 }
