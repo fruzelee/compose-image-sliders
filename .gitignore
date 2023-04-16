@@ -49,3 +49,7 @@ google-services.json
 .externalNativeBuild
 .cxx
 #local.properties
+
+### Custom template
+.idea/gradle.xml
+.idea/misc.xml
