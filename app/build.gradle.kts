@@ -70,4 +70,7 @@ dependencies {
     implementation(libs.accompanist.pager)
     implementation(libs.accompanist.pager.indicators)
 
+    // coil: An image loading library for Android backed by Kotlin Coroutines.
+    implementation(libs.coil.compose)
+
 }

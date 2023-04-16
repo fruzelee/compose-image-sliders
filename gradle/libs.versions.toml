@@ -1,5 +1,6 @@
 [versions]
 accompanistVersion = "0.30.1"
+coilComposeVersion = "2.3.0"
 com-android-application = "8.1.0-alpha11"
 org-jetbrains-kotlin-android = "1.7.20"
 core-ktx = "1.9.0"
@@ -14,6 +15,7 @@ compose-bom = "2022.10.00"
 accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistVersion" }
 accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanistVersion" }
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistVersion" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
