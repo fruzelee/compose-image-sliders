@@ -64,6 +64,9 @@ dependencies {
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
 
+    // ui util
+    implementation(libs.ui.util)
+
     // System UI Controller for Jetpack Compose - Accompanist
     implementation(libs.accompanist.systemuicontroller)
     // Pager
